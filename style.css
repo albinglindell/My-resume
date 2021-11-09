@@ -8,9 +8,9 @@ body{
     background: rgb(218, 241, 255);
 }
 section{
+    width: 100vw;
     height: 100vh;
     background: rgb(218, 241, 255);
-    
 }
 .front-page{
     position: relative;
@@ -136,6 +136,30 @@ nav a{
     background: black;
     animation: backPage 1s ease-in forwards 7s;
 }
+.about-me-container{
+    position: absolute;
+    top:15%;
+    left: 30%;
+    transform: translate(-50%);
+    min-height: 75%;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    opacity: 0;
+    animation: backPage 1s ease-in forwards 7s;
+}
+.about-me-container .about-me-heading{
+    font-size: 30px;
+    font-weight: 200;
+    padding: 30px;
+}
+.about-me-container .about-me-info{
+    padding: 30px;
+}
 
 @keyframes move-around{
     0%{
@@ -167,7 +191,7 @@ nav a{
     }
 
     100%{
-        left: 15%;
+        left: 30%;
         top: 4%;
         background: white;
         border-radius: 20px;
@@ -189,7 +213,7 @@ nav a{
     }
 }
 .second-page{
-    /* opacity: 0; */
+    opacity: 0;
     animation: backPage 1s ease-in forwards 7s;
     
 }
