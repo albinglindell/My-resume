@@ -66,7 +66,7 @@ section{
     position: relative;
     border-radius: 100%;
     overflow: hidden;
-    /* animation: move1 3s ease-in forwards 4s; */
+    animation: move1 3s ease-in forwards 4s;
     z-index: 1;
 
 }
@@ -90,9 +90,9 @@ section{
     justify-content: space-evenly;
     align-self: center;
     position: relative;
-    /* opacity: 0; */
-    /* animation: move1 3s ease-in forwards 4s; */
-    /* animation: backPage 1s ease-in forwards 7s; */
+    opacity: 0;
+    animation: move1 3s ease-in forwards 4s;
+    animation: backPage 1s ease-in forwards 7s; 
     background: white;
 }
 
@@ -143,11 +143,11 @@ article.main-article{
     font-weight: 300
 }
 .heading-decoration{
-    /* opacity: 0; */
+    opacity: 0;
     height: .1px;
     width: 100%;
     background: black;
-    /* animation: backPage 1s ease-in forwards 7s; */
+    animation: backPage 1s ease-in forwards 7s;
 }
 .about-me-container{
     min-height: 75%;
@@ -158,10 +158,10 @@ article.main-article{
     flex-direction: column;
     align-items: center;
     background: white;
-    /* opacity: 0; */
+    opacity: 0;
     z-index: 1;
 
-    /* animation: backPage 1s ease-in forwards 7s; */
+    animation: backPage 1s ease-in forwards 7s;
 }
 .about-me-container .about-me-heading{
     font-size: 30px;
@@ -296,8 +296,8 @@ article.main-article{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        /* opacity: 0; */
-        /* animation: backPage 1s ease-in forwards 7s; */
+        opacity: 0; 
+         animation: backPage 1s ease-in forwards 7s;
     }
     .hamburger{
         width: 90%;
